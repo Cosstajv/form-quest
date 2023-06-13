@@ -2,36 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form Validation</title>
-    <link
-      rel="stylesheet"
-      href="./src/css/reset.css"
-    />
-    <link
-      rel="stylesheet"
-      href="./src/css/style.css"
-    />
-    <link
-      rel="stylesheet"
-      href="./src/css/responsive.css"
-    />
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-    />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin
-    />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
   </head>
   <body>
     <div class="contact">
@@ -42,39 +22,26 @@
           entraremos em contato em menos de 24h.
         </p>
       </div>
-      <form
-        class="contact-form"
-        id="form"
-        method="post"
-      >
-        <input
-          type="text"
-          name="name"
-          placeholder="Nome completo*"
-          class="inputs"
-        />
+      <form class="contact-form" id="form" method="post">
+        
+        <input type="text" name="name" placeholder="Nome completo*" class="inputs" />
+        
         <span class="span-required"></span>
-        <input
-          type="email"
-          name="email"
-          placeholder="Email*"
-          class="inputs"
-        />
+        
+        <input type="email" name="email" placeholder="Email*" class="inputs" />
+       
         <span class="span-required"></span>
-        <input
-          type="tel"
-          name="phone"
-          placeholder="Telefone*"
-          class="inputs"
-        />
+        
+        <input type="tel" name="phone" placeholder="Telefone*" class="inputs" />
+       
         <span class="span-required"></span>
-        <textarea
-          rows="6"
-          placeholder="Mensagem*"
-          class="inputs"
-        ></textarea>
+       
+        <textarea rows="6" placeholder="Mensagem*" class="inputs"></textarea>
+       
         <span class="span-required"></span>
+       
         <span class="span-note">*campos obrigatórios</span>
+       
         <button class="contact-btn">Enviar</button>
       </form>
     </div>
